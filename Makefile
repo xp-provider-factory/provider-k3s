@@ -201,7 +201,7 @@ CROSSPLANE_NAMESPACE = crossplane-system
 # verified against a SHA256 pinned below, per platform, before it is made
 # executable; a mismatch fails the target and installs nothing. Bumping the fork
 # changes UPTEST_FORK_REF and every UPTEST_FORK_SHA256_* line together.
-UPTEST_FORK_REPO := kaessert/uptest
+UPTEST_FORK_REPO := xp-provider-factory/uptest
 UPTEST_FORK_REF  := v2.3.0-fork.e21896e
 UPTEST_FORK_SHA256_linux-amd64  := 2f7618fceeda82bca2749042db6d578c0f1edf94515f4020be79c1969a17c2d9
 UPTEST_FORK_SHA256_linux-arm64  := 72a4bfa4514c82eb43ace0a55cec1d7466cb720f6967d9b2d2221bc8f66c66bf

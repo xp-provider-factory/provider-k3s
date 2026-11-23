@@ -2,8 +2,6 @@ module github.com/crossplane-contrib/provider-k3s/tools/update-tester
 
 go 1.26.10
 
-tool github.com/kaessert/crossplane-update-tester
-
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
@@ -18,8 +16,6 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/kaessert/crossplane-update-tester v0.48.1 // indirect
-	github.com/kaessert/crossplane-update-tester/sidecar v0.2.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
@@ -27,6 +23,8 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
+	github.com/xp-provider-factory/crossplane-update-tester v0.49.0 // indirect
+	github.com/xp-provider-factory/crossplane-update-tester/sidecar v0.3.0 // indirect
 	golang.org/x/net v0.62.0 // indirect
 	golang.org/x/oauth2 v0.27.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
@@ -48,3 +46,5 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.6.0 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
+
+tool github.com/xp-provider-factory/crossplane-update-tester
